@@ -1,0 +1,189 @@
+/* 
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.toolbar {
+  width: 100px;
+  background-color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.tool-button {
+  background-color: #34495e;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+.tool-button.active, .tool-button:hover {
+  background-color: #1abc9c;
+}
+
+.image-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.image-box {
+  border: 2px solid #bdc3c7;
+  padding: 10px;
+  background-color: #ecf0f1;
+}
+
+.table-container {
+  width: 300px;
+  padding: 20px;
+  background-color: #ecf0f1;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #bdc3c7;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f4f4f4;
+} */
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.toolbar {
+  width: 100px;
+  background-color: #34495e;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.tool-button {
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+.tool-button.active, .tool-button:hover {
+  background-color: #16a085;
+}
+
+.image-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #34495e;
+  position: relative;
+}
+
+.upload-options {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 10px;
+}
+
+.upload-button {
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background-color: #16a085;
+}
+
+.image-box {
+  border: 2px solid #bdc3c7;
+  padding: 10px;
+  background-color: #ecf0f1;
+  max-width: 100%;
+  max-height: 80vh;
+  overflow: auto;
+}
+
+.image-box img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.table-container {
+  width: 300px;
+  padding: 20px;
+  background-color: #34495e;
+  overflow-y: auto;
+  position: relative;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #bdc3c7;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #2c3e50;
+}
